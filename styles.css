@@ -54,10 +54,12 @@ a:hover {
 
 .imagen-perfil {
     display: block;
-    margin: 0 auto 10px;
+    margin: 0 auto 20px;
     border-radius: 50%;
+    max-width: 200px; /* Ajusta el tamaño máximo de la imagen según sea necesario */
+    width: 100%;
+    height: auto;
 }
-
 .contact-info {
     margin-bottom: 20px;
 }

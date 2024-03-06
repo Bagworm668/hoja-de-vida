@@ -1,70 +1,119 @@
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
-    color: #333;
-    padding: 2rem;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
-    width: 80%;
-    margin: 0 auto;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h1, h2 {
-    color: #446688;
+h1, h2, h3 {
+    color: #333;
+    margin-bottom: 10px;
 }
 
 h1 {
-    font-size: 2.5rem;
+    text-align: center;
 }
 
 h2 {
-    font-size: 2rem;
-    margin-top: 2rem;
+    font-size: 24px;
+    margin-top: 20px;
 }
 
-.contact-info,
-.education,
-.projects,
-.languages {
-    margin-top: 1rem;
-    border-top: 1px solid #ddd;
-    padding-top: 1rem;
+h3 {
+    font-size: 18px;
+    margin-top: 10px;
 }
 
-.contact-info strong,
-.languages strong {
-    display: inline-block;
-    width: 120px;
+p {
+    margin: 0;
+    line-height: 1.5;
 }
 
-.education h3 {
-    margin-top: 1rem;
+ul {
+    list-style: none;
+    padding-left: 0;
 }
 
-.education p {
-    margin-bottom: 0.5rem;
+a {
+    text-decoration: none;
+    color: #007bff;
 }
 
-.education ul {
-    padding-left: 20px;
+a:hover {
+    text-decoration: underline;
 }
 
-img{
-    width: 250px; /* Ancho de la imagen */
-    height: 270px; /* Altura ajustada automáticamente para mantener la proporción */
-    border-radius: 100%; /* Bordes redondeados */
-    box-shadow: 0 0 10px rgba(199, 101, 101, 0.5); /* Sombra */
-    opacity: 0.9; /* Opacidad */
-    transition: opacity 0.3s ease; /* Transición suave para la opacidad */
+.imagen-perfil {
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 50%;
 }
 
-button {
-    padding: 10px 20px;
-    background-color: #38b8eb;
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.projects h3 {
+    margin-top: 20px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
     color: #fff;
     border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+#mi-boton {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
     text-align: center;
-    border-radius: 10px; /* Bordes redondeados */
-  }
+    text-decoration: none;
+}
+
+#mi-boton:hover {
+    background-color: #0056b3;
+}
